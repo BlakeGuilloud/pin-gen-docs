@@ -5,7 +5,7 @@ const snippetData = {
     {
       "message": "text",
       "otherStuff" {
-        "string": 'hello',
+        "string": 'helloe',
       }
     }
 `,

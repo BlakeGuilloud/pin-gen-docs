@@ -1,0 +1,21 @@
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(to top, $brand-pink, $brand-pink-light);
+}
+
+.header__logo {
+  margin-left: 44.5px;
+  width: 55px;
+  border-radius: 50%;
+}
+
+.header__title {
+  margin-left: 44.5px;
+  font-size: $font-size-large;
+}

@@ -1,0 +1,15 @@
+.docs__header-welcome {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: $docs-header-padding-left;
+}
+
+.docs__header-welcome__title {
+  font-size: ceil(($font-size-x-large * 1.25));
+}
+
+.docs__header-welcome__body {
+  font-size: $font-size-medium;
+}

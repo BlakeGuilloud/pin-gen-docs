@@ -1,0 +1,40 @@
+/*
+  colors
+*/
+$brand-brown: #2f2200;
+$brand-pink: #ffe6eb;
+$brand-pink-dark: #f29cae;
+$brand-pink-light: #f9eff1;
+
+$dark-pink-border: 1px solid $brand-pink-dark;
+$brown-border: 1px solid $brand-brown;
+
+
+/*
+  fonts
+*/
+$font-stack: 'Dosis', sans-serif;
+
+$font-size-base: 14px;
+
+$font-size-small: ceil(($font-size-base * .85));
+$font-size-medium: ceil(($font-size-base * 1.50));
+$font-size-large: ceil(($font-size-base * 1.75));
+$font-size-x-large: ceil(($font-size-base * 2.50));
+
+/*
+  mixins
+*/
+@mixin border-top($color) {
+  border-top: 1px solid $color;
+}
+
+@mixin border($color) {
+  border: 1px solid $color;
+}
+
+
+/*
+  random
+*/
+$docs-header-padding-left: 60px;

@@ -1,0 +1,26 @@
+.navigation {
+  display: block;
+  width: 200px;
+  border-top: $dark-pink-border;
+  border-right: $dark-pink-border;
+  position: absolute;
+  left: 0;
+  top: 92px;
+  bottom: 0;
+  width: 177px;
+}
+
+.navigation__item {
+  margin: 10px;
+  font-size: $font-size-medium;
+  margin-left: 44.5px;
+}
+
+.navigation__item:hover {
+  color: $brand-pink-dark;
+}
+
+.welcome {
+  text-decoration: underline;
+  margin-bottom: 30px;
+}

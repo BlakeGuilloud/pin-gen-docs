@@ -1,0 +1,26 @@
+{
+  "name": "pingen-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build-css": "./bin/css/build-css",
+    "minify-css": "./bin/css/minify-css",
+    "watch-css": "./bin/css/watch-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlakeGuilloud/pingen-docs.git"
+  },
+  "author": "Blake Guilloud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlakeGuilloud/pingen-docs/issues"
+  },
+  "homepage": "https://github.com/BlakeGuilloud/pingen-docs#readme",
+  "devDependencies": {
+    "minifier": "^0.8.1",
+    "node-sass": "^4.5.2",
+    "nodemon": "^1.11.0"
+  }
+}

@@ -1,8 +1,5 @@
-const div = document.getElementById('root');
-
 data.forEach((item) => {
-  console.log('item: ', item);
-  div.innerHTML +=
+  document.getElementById('root').innerHTML +=
     `
       <div class="docs__header">
         ${item.header}
@@ -13,13 +10,13 @@ data.forEach((item) => {
             <div class="docs__item__request-verb">
               ${item.request.verb}
             </div>
-            <div class="docs__item__request-route">
+            <div class="u-m-l">
               <span class="highlight">/</span>&nbsp;${item.request.route}
             </div>
           </div>
           <div class="docs__item__content">
             
-            <div class="docs__item__content-requestBody">
+            <div class="u-p-t-b">
               <div class="docs__item__content-requestBody__title">
                 Request Body
               </div>
@@ -31,7 +28,7 @@ data.forEach((item) => {
 </pre>
             </div>
 
-            <div class="docs__item__content-responses">
+            <div class="u-p-t-b">
               <div class="docs__item__content-responses__title">
                 Response
               </div>

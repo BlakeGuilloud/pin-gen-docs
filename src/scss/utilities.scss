@@ -1,0 +1,25 @@
+
+/*
+  padding and margin
+*/
+$padding-base: 10px;
+
+.u-p-t-b {
+  padding-top: $padding-base;
+  padding-bottom: $padding-base;
+}
+
+
+$margin-base: 10px;
+.u-m-l {
+  margin-left: $margin-base;
+}
+
+.u-m-t {
+  margin-top: $margin-base;
+}
+
+.u-m-t-b {
+  margin-top: $margin-base;
+  margin-bottom: $margin-base;
+}
